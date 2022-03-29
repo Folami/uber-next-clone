@@ -2,6 +2,14 @@
   padding: 0 2rem;
 }
 
+.map {
+  background-color: crimson;
+}
+
+.start {
+  background-color: darkgreen;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
