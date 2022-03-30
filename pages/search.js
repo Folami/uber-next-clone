@@ -7,7 +7,7 @@ const Search = () => {
     const [dropoff, setDropoff ] = useState("");
     console.log(pickup)
     console.log(dropoff)
-    
+
     return (
         <Wrapper>
             {/* Button Container */}
@@ -46,11 +46,12 @@ const Search = () => {
             {/* Confirm Location */}
             {/* Cher 🔥 */}
             <Link href={{ pathname: "/confirm",
-                                query: {
+                                  query: {
                                     pickup: pickup,
                                     dropoff: dropoff
-                                }
-            }}>
+                                  }
+                               }}
+            >
                 <ConfirmButtonContainer>
                     Confirm Locations
                 </ConfirmButtonContainer>

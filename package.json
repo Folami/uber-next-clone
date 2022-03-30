@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^9.6.10",
     "mapbox-gl": "^2.7.1",
     "next": "12.1.0",
     "react": "17.0.2",
