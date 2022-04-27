@@ -66,7 +66,7 @@ const Confirm = () => {
                 {/* Benjamin */}
                 <RideContainer>
                     <RideSelector 
-                        pickUpCoordinates={pickUpCoordinates}
+                        pickUpCoordinates={pickupCoordinates}
                         dropoffCoordinates={dropoffCoordinates}
                     />
                     <ConfirmButtonContainer>
